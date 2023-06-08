@@ -1,0 +1,7 @@
+git add all file - 
+git add --all
+
+commit all changes -
+git commit -m '<commit_message>'
+
+git status
