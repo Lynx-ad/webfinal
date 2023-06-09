@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/76d8bb9a7d.js" crossorigin="anonymous"></script>
+    <title>Homepage</title>
+    <script> 
+        $(function(){
+          $("#navbar").load("navbar.html"); 
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="section-1">
+        <img src="../assets/webfinal-home-01.png" alt="Home" class="home-img">
+        <div class="text-container">
+            <p class="home-title"> Ice Tea Tech</p>
+            <p class="home-sub">Refreshing Innovation, Empowering Tomorrow.</p>
+            <p class="home-sub-1">Where refreshing innovation meets cutting-edge software development, empowering businesses for a brighter tomorrow.</p>
+            <button class="hire-btn">Hire Us</button>
+        </div>
+    </div>
+    <div class="section-2">
+        <p class="service">Services</p>
+        <div class="box-container">
+            <div class="row">
+                <div class="box">
+                    <i class="fa-solid fa-code"></i>
+                    <p class="sub-box">Software Development</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-database"></i>
+                    <p class="sub-box">Data Analysis</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-handshake"></i>
+                    <p class="sub-box">Vendor Management</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="sub-box">IT Consultant</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="box">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <p class="sub-box">Digital Marketing</p>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-aws"></i>
+                    <p class="sub-box">Cloud Computing</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <p class="sub-box">Cybersecurity</p>
+                </div>
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-diagram-project"></i>
+                    <p class="sub-box">Project Management</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="section-3">
+      <div class="container">
+        <div class="board">
+            <h2 class="text-light">Clients Who Loves Us </h2>
+            <p class="text-light">Some of the fullfilled costomers reviews</p>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="flex">
+                        <div class="comments">
+                          Their team's technical expertise, attention to detail, and timely delivery have helped us achieve our business goals and stay ahead in a competitive market.
+                        </div>
+                        <div class="profile">
+                            <img src="../assets/dbkl-01.png" alt="">
+                            <a href="#">DBKL RM15</a>
+                            <span>Local Authority</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex">
+                        <div class="comments">
+                          Their expertise in providing innovative solutions and seamless integration has significantly enhanced our banking operations, delivering efficiency, security, and an improved customer experience.
+                         </div>
+                        <div class="profile">
+                            <img src="../assets/maybanl-01.png" alt="">
+                            <a href="#">December Bank</a>
+                            <span>Data & Server Department</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="flex">
+                        <div class="comments">
+                          Their expertise in threat detection, proactive measures, and incident response has significantly bolstered our security posture, giving us peace of mind in today's ever-evolving threat landscape.
+                        </div>
+                        <div class="profile">
+                            <img src="../assets/anwar-01.png" alt="">
+                            <a href="#">Zahid Ibrahim</a>
+                            <span>Prime Minister Office</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+            </div>
+
+        </div>
+    </div>
+
+<div id="footer"></div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="../review.js"></script>
+</body>
+</html>
