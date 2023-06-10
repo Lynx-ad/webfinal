@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/career.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/76d8bb9a7d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="../option.js" defer></script>
+    <script> 
+        $(function(){
+          $("#navbar").load("navbar.html"); 
+          $("#footer").load("footer.html"); 
+        });
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="section1">
+        <img src="../assets/careeer1-01.png" class="career-img" alt="">
+        <p class="title-1">
+            Explore Limitless Possibilities
+        </p>
+            <p class="para-1">
+            Join our diverse team and embark on a journey that will challenge you, inspire you, and enable you to reach new height.
+        </p>
+        <button class="join-btn">Lets Us Call You</button>
+    </div>
+    <div class="section2">
+        <form action="" class="job-search">
+            <div class="job-title">
+                <i class="fa-sharp fa-solid fa-briefcase"></i>
+                <input type="text" placeholder="Enter Job Title">
+            </div>
+            <div class="country-opt">
+                <label for="country"><i class="fa-solid fa-location-dot"></i></label>
+                <select id="country" name="country">
+                <option value="0" selected disabled hidden>Select a country</option>
+                <option value="1"><i class="fas fa-location-dot"></i>Malaysia</option>
+                <option value="2"><i class="fas fa-location-dot"></i>Indonesia</option>
+                <option value="3"><i class="fas fa-location-dot"></i>Singapore</option>
+                <option value="4"><i class="fas fa-location-dot">Thailand</i></option>
+                </select>
+            </div>
+        </form>
+        <div class="container">
+            <div class="box-1">
+                <div class="hero-btn">
+                    <button>Explore More</button>
+                </div>
+                <div class="hero-box">
+                    <p class="hero-1">
+                        Data Insights Architect
+                    </p>
+                    <p class="hero-2">
+                        A Data Analyst utilizes advanced techniques to extract insights from complex datasets, enabling data-driven decision-making and optimizing business processes.
+                    </p>
+                    <p class="date-hero">
+                        17 July 2023 - Malaysia
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-1">
+                <div class="hero-btn">
+                    <button>Explore More</button>
+                </div>
+                <div class="hero-box">
+                    <p class="hero-1">
+                        Senior Sofware Developer
+                    </p>
+                    <p class="hero-2">
+                        Join a dynamic team, push boundaries, and craft exceptional code for revolutionary applications. Unleash your creativity and drive digital transformation.
+                    </p>
+                    <p class="date-hero">
+                        18 June 2023 - Malaysia
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box-1">
+                <div class="hero-btn">
+                    <button>Explore More</button>
+                </div>
+                <div class="hero-box">
+                    <p class="hero-1">
+                        Project Manager Extraordinaire
+                    </p>
+                    <p class="hero-2">
+                        Oversee projects from inception to completion, ensuring efficient execution, effective communication, and timely delivery. 
+                    </p>
+                    <p class="date-hero">
+                        22 December 2023 - Singapore
+                    </p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+
