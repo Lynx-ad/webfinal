@@ -62,3 +62,38 @@
   margin-top: 10px;
   text-indent: 20px;
 }
+.section-3{
+  height: 400px;
+  background-color: #159895;
+}
+.business-title {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+.container-table{
+  justify-content: center;
+  align-items: center;
+}
+table{
+  border-collapse: collapse;
+  border: 1px solid white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid white;
+}
+th{
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+        
+        

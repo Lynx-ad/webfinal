@@ -130,6 +130,7 @@ input , select{
     border: none;
     background-color: #159895;
     color: white;
+    cursor: pointer;
 }
 .hero-btn button:hover{
     transform: translateY(-5px) translateX(2px);
