@@ -7,7 +7,7 @@ function isElementInViewport(element) {
 // Autoplay video when scrolled into view
 function autoplayVideoOnScroll() {
     var video = document.getElementById('video');
-    var videoSection = document.querySelector('.section-2');
+    var videoSection = document.querySelector('.section-3');
 
     if (isElementInViewport(videoSection)) {
         video.play();

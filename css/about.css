@@ -25,9 +25,31 @@
   font-size: 22px;
 }
 .section-2{
-  height: 700px;
-  background-color: aliceblue;
+  height: 600px;
+}
+.video-title{
+  font-size: 38px;
+  text-align: center;
+  font-weight: 600;
+  word-spacing: 10px;
+  padding: 5px 0px;
+  margin-top: 70px;
+  margin-left: 40%;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #159895;
+  width: 250px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-3{
+  height: 800px;
   align-items: center;
+}
+video{
+  margin-left: 21%;
+  margin-top:1%;
 }
 .history-img{
   width: 500px;
@@ -62,7 +84,7 @@
   margin-top: 10px;
   text-indent: 20px;
 }
-.section-3{
+.section-4{
   height: 400px;
   background-color: #159895;
 }
@@ -89,6 +111,10 @@ th, td {
   padding: 8px;
   text-align: left;
   border: 1px solid white;
+  
+}
+td{
+  color: white;
 }
 th{
   background-color: white;
