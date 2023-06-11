@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/76d8bb9a7d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script> 
         $(function(){
           $("#navbar").load("navbar.html"); 
@@ -19,14 +21,62 @@
 <body>
     <div id="navbar"></div>
     <div class="section-1">
-        <div id="video-container">
-            <video id="video-background" autoplay loop muted>
-            <source src="/assets/officestock.mp4" type="video/mp4">
-            </video>
-        <div id="text-overlay">
-            <h1>Your Text</h1>
-            <p>Some additional text</p>
+        <div class="text-overlay">
+            <p>Explore a collection of our recent job highlights, where we have brought our passion and skill to create remarkable solutions.</p>
             </div>
     </div>
+    <div class="section-2">
+        <h1>Our Works</h1>
+        <br> 
+        <div class="process-wrapper">
+        <div id="progress-bar-container">
+            <ul>
+                <li class="step step01 active"><div class="step-inner">Petronas</div></li>
+                <li class="step step02"><div class="step-inner">December Bank</div></li>
+                <li class="step step03"><div class="step-inner">DBJKL RM15</div></li>
+                <li class="step step04"><div class="step-inner">Gocar</div></li>
+                <li class="step step05"><div class="step-inner">Nilai University</div></li>
+            </ul>
+            
+            <div id="line">
+                <div id="line-progress"></div>
+            </div>
+        </div>
+        
+        <div id="progress-content-section">
+            <div class="section-content discovery active">
+                <img class="section-img" src="/assets/petronas-01.png" alt="">
+                <h2>Data Analytics</h2>
+                <p>Petronas, the esteemed global energy company, has forged a strategic alliance with Elite Analytics, a prominent provider of data analytics services. With this collaboration, Petronas aims to unlock the true potential of their vast data reserves by leveraging Elite Analytics' cutting-edge algorithms and predictive modeling expertise. By harnessing the power of data analytics, Petronas aims to make informed decisions, optimize operations, and drive innovation across their diverse portfolio of energy solutions. This partnership will empower Petronas to stay at the forefront of the industry by harnessing data-driven insights to fuel their growth and success.</p>
+            </div>
+            
+            <div class="section-content strategy">
+                <img class="section-img" src="/assets/maybanl-01.png" alt="">
+                <h2>Cybersecurity</h2>
+                <p>December Bank, a respected financial institution, has fortified its digital security by procuring CyberShield, an advanced cybersecurity service provided by Ice Tea Tech. With CyberShield's cutting-edge technologies and robust defense mechanisms, December Bank can effectively safeguard its sensitive information, customer data, and critical systems from evolving cyber threats. This strategic collaboration underscores December Bank's commitment to ensuring the security and privacy of its clients, bolstering trust and confidence in their services. By partnering with Ice Tea Tech, December Bank has equipped itself with the necessary tools and expertise to proactively mitigate risks and maintain a secure digital environment for its operations.</p>
+            </div>
+            
+            <div class="section-content creative">
+                <img class="section-img" src="/assets/dbkl-01.png" alt="">
+                <h2>Software Developer , Vendor  </h2>
+                <p>CityConnect, the recently acquired software solution by the City Council, is a powerful mobile application designed to facilitate seamless communication between local government and residents. This innovative app offers a range of user-friendly features aimed at enhancing civic engagement and promoting transparency. With CityConnect, citizens can easily access important information, submit service requests, receive real-time updates on city initiatives, and participate in community discussions, all from the convenience of their smartphones.</p>
+            </div>
+            
+            <div class="section-content production">
+                <img class="section-img" src="/assets/gocar-01.png" alt="">
+                <h2>Project Management</h2>
+                <p>GoCar, a leading company in the transportation industry, has enhanced its project management capabilities by adopting ProjectFlow, a cutting-edge service provided by Ice Tea Tech. With ProjectFlow's robust features and intuitive interface, GoCar can streamline project planning, execution, and monitoring, ensuring efficient and timely delivery of their initiatives. This partnership empowers GoCar to optimize resource allocation, track progress, and collaborate seamlessly, resulting in improved project outcomes and customer satisfaction. By leveraging Ice Tea Tech's ProjectFlow, GoCar is poised to achieve greater project success and drive innovation in the competitive transportation market.</p>
+            </div>
+            
+            <div class="section-content analysis">
+                <img class="section-img" src="/assets/nilai-01.png" alt="">
+                <h2>Cloud Computing</h2>
+                <p>Nilai University, a prestigious educational institution, has recently partnered with Ice Tea Tech to acquire CloudScape, an advanced cloud computing service. With CloudScape's scalable infrastructure and seamless integration, Nilai University can leverage the power of the cloud to enhance its academic and administrative operations. This strategic collaboration enables Nilai University to optimize resource utilization, enhance data security, and provide seamless access to educational resources for students and faculty. By embracing Ice Tea Tech's CloudScape, Nilai University is poised to revolutionize its digital ecosystem and deliver a superior learning experience.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+<script src="/timeline.js"></script>
 </body>
 </html>
